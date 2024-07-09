@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>a</title>
+    <link href="/2024/07/09/a/"/>
+    <url>/2024/07/09/a/</url>
+    
+    <content type="html"><![CDATA[<h1 id="1-使用hexo创建一个博客"><a href="#1-使用hexo创建一个博客" class="headerlink" title="1.使用hexo创建一个博客"></a>1.使用hexo创建一个博客</h1><h2 id="环境配置"><a href="#环境配置" class="headerlink" title="环境配置"></a>环境配置</h2><h3 id="1-1安装Node-js"><a href="#1-1安装Node-js" class="headerlink" title="1.1安装Node.js"></a>1.1安装Node.js</h3><p><img src="C:\Users\a\Pictures\Screenshots\Nodejs.png"></p><p>利用命令提示符检测安装是否成功</p><figure class="highlight crmsh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><code class="hljs crmsh"><span class="hljs-keyword">node</span> <span class="hljs-title">-v</span><br>npm -v<br></code></pre></td></tr></table></figure><h3 id="1-2安装git"><a href="#1-2安装git" class="headerlink" title="1.2安装git"></a>1.2安装git</h3><p>省略</p><h3 id="1-3安装hexo"><a href="#1-3安装hexo" class="headerlink" title="1.3安装hexo"></a>1.3安装hexo</h3><figure class="highlight cmake"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs cmake">npm <span class="hljs-keyword">install</span> -g hexo<br>hexo -v<br><br></code></pre></td></tr></table></figure><h3 id=""><a href="#" class="headerlink" title=""></a></h3><h1 id="2-github发布文件"><a href="#2-github发布文件" class="headerlink" title="2.github发布文件"></a>2.github发布文件</h1><h2 id="2-1-修改配置"><a href="#2-1-修改配置" class="headerlink" title="2.1 修改配置"></a>2.1 修改配置</h2><p>找到config.yml文件，加入下列配置</p><figure class="highlight dts"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><code class="hljs dts"><span class="hljs-symbol">deploy:</span><br><span class="hljs-symbol">  type:</span> git<br><span class="hljs-symbol">  repo:</span> https:<span class="hljs-comment">//github.com/Bill-ycb/Bill-ycb.github.io.git</span><br><span class="hljs-symbol">  branch:</span> main<br></code></pre></td></tr></table></figure><h2 id="2-2搭建博客"><a href="#2-2搭建博客" class="headerlink" title="2.2搭建博客"></a>2.2搭建博客</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs css">hexo clean<br>hexo <span class="hljs-selector-tag">g</span><br>hexo d<br></code></pre></td></tr></table></figure>]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>-使用hexo创建博客 -利用GitHub发布博客 -发布文章</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>Hello World</title>
     <link href="/2024/07/08/hello-world/"/>
     <url>/2024/07/08/hello-world/</url>
